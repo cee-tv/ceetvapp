@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://jeromelaliag.link/iptv/channel.m3u.php";
+	let url = new URL(location.href).searchParams.get("url") || "https://gist.githubusercontent.com/iptvrm3u/2ef0107ac55b72e2f0bb2133f5239415/raw/b5594dbafc2d86e787e3e9f0b5c5cfcece1a7dc1/LISTASDEPRUEBAm.M3U";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
