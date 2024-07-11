@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://iptv-org.github.io/iptv/countries/ph.m3u";
+	let url = new URL(location.href).searchParams.get("url") || "https://m3u.ch/pl/812b4ff1dbeebd29c7503c48941385bc_b26a2b27e5b8af79ed7a72ce92873f6e.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
