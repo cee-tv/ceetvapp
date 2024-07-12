@@ -202,7 +202,7 @@
 		loadTVList: function(list) {
 			this.log("Ready to load program list...");
 			if (!list || typeof list == 'string' || !list.length) {
-				this.log("节目列表数据格式不对!");
+				this.log("The channel list data format is incorrect!");
 				return false;
 			}
 			this._setting.tv_list = list;
