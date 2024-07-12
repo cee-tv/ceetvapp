@@ -1,16 +1,16 @@
 /**
- * Date: 2023-05-07 10:36:29
- * Author: Stack Dev
- * Blog: https://stackblog.cf
+ * Date: 2024-05-07 10:36:29
+ * Author: CEE TV
+ * Blog: 
  */
 ; (function (window) {
     "use strict";
     var defaultSetting = {
         "selector": ".copyright",
-        "start": 2022,
+        "start": 2024,
         "link": {
-            "title": "Stack Dev",
-            "href": "https://stackblog.cf",
+            "title": "CEE TV",
+            "href": "google.com",
             "target": "_blank"
         }
     }
