@@ -113,7 +113,7 @@
 				cardInfo.appendChild(p);
 			}
 			// 添加一言API，不兼容IE
-			if (_this._setting.hitokoto.enable == true) {
+			if (_this._setting.hitokoto.enable == false) {
 				let hitokoto = {};
 				let catStr = _this._setting.hitokoto.cats ? _this._setting.hitokoto.cats.map(c => "c=" + c)
 					.join("&") : defaultSetting.hitokoto.cats.map(c => "c=" + c).join("&");
