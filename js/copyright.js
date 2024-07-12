@@ -10,7 +10,7 @@
         "start": 2024,
         "link": {
             "title": "CEE TV",
-            "href": "google.com",
+            "href": "",
             "target": "_blank"
         }
     }
