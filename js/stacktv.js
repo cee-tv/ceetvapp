@@ -340,10 +340,10 @@
 			});
 			video.addEventListener("loadeddata", function() {
 				_this._stackvideo.removeAttribute("poster");
-				_this.log("努力加载...");
+				_this.log("Loading...");
 			});
 			video.addEventListener("canplaythrough", function() {
-				_this.log("开始播放...");
+				_this.log("Start playing...");
 				hideLogTimer = setTimeout(function() {
 					addClass("hidden", _this._stacktvlog);
 					let logs = _this._stacktvlog.childNodes;
@@ -354,7 +354,7 @@
 				}, 3000);
 			});
 			video.addEventListener("error", function() {
-				_this.log("播放出现一点问题");
+				_this.log("");
 			});
 			video.addEventListener("progress", function() {
 				// let start = this.buffered.start(0);
