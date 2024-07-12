@@ -159,10 +159,10 @@
 			try {
 				url = playUrl ? playUrl.trim() : defaultSetting.default_url;
 			} catch (err) {
-				this.log("视频链接有误!");
+				this.log(""The video link is incorrect!");
 				return;
 			}
-			this.log("准备播放视频:" + url);
+			this.log("Ready to play the video:");
 			let canPlayM3u8 = this._stackvideo.canPlayType('application/vnd.apple.mpegurl');
 			if (!canPlayM3u8 && url.match(/.*\.(m3u8).*/gi)) {
 				this.log("当前浏览器不支持播放m3u8!");
@@ -200,14 +200,14 @@
 
 		},
 		loadTVList: function(list) {
-			this.log("准备加载节目列表...");
+			this.log("Ready to load the list of programs...");
 			if (!list || typeof list == 'string' || !list.length) {
 				this.log("节目列表数据格式不对!");
 				return false;
 			}
 			this._setting.tv_list = list;
 			if (!this._setting.showAbout && this._setting.autoPlayFirst && this._setting.tv_list[0]) {
-				this.log("自动载入第一个节目");
+				this.log("Automatically load the first program");
 				this.loadUrl(this._setting.tv_list[0].tv_url);
 			}
 		},
