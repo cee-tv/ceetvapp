@@ -9,7 +9,7 @@
 	var defaultSetting = {
 		selector: "body",
 		default_url: "https://vmcdn.stackblog.ml/video/simplestacktv_1.m3u8",
-		default_logo: "https://tv.stackblog.cf/img/logo.png",
+		default_logo: "https://raw.githubusercontent.com/cee-tv/Chinatv/main/Picsart_24-05-28_09-46-50-715.png",
 		maxLog: 6,
 		autoPlay: true,
 		autoPlayFirst: true,
