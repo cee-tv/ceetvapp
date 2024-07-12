@@ -689,7 +689,7 @@
 				console.warn("m3u链接格式不对!");
 				return false;
 			}
-			this.log("开始请求节目列表");
+			this.log("Start requesting channel listings");
 			Promise.race([
 					fetchData(url),
 					new Promise(function(resolve, reject) {
@@ -698,7 +698,7 @@
 					})
 				])
 				.then((data) => {
-					_this.log('节目列表请求成功');
+					_this.log('Channel list request successful.');
 					_this.loadTVList(_this.m3uToJson(data));
 
 				})
