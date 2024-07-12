@@ -2,7 +2,7 @@
 	try {
 		const MGC = $MGC({
 			icon: "./img/logo.png",
-			name: "Stack TV",
+			name: "CEE TV",
 			info: "A simple television.\nIf you have any good live broadcast source recommendations, please submit them to me.。",
 			z_index: 9999,
 			blur: ".container",
@@ -16,17 +16,17 @@
 			},
 			links: [{
 				"title": "My Blog",
-				"url": "https://stackblog.cf/",
+				"url": "",
 				"type": "primary",
 				"target": "_blank"
 			}, {
 				"title": "Tutorial",
-				"url": "https://stackblog.cf/tv/",
+				"url": "",
 				"type": "dark",
 				"target": "_blank"
 			}, {
 				"title": "Stack TV Usage",
-				"url": "https://github.com/Uyukisan/StackTV",
+				"url": "",
 				"target": "_blank"
 			}]
 		});
