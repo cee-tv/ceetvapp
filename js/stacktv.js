@@ -336,7 +336,7 @@
 
 			});
 			video.addEventListener("loadstart", function() {
-				_this.log("开始加载...");
+				_this.log("Start loading...");
 			});
 			video.addEventListener("loadeddata", function() {
 				_this._stackvideo.removeAttribute("poster");
