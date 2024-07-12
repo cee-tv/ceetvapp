@@ -627,7 +627,7 @@
 				let tvname = document.createElement("div");
 				addClass("tv-name", tvname);
 				tvname.innerText = gen_list[i].tv_name ? gen_list[i].tv_name :
-					`节目-${i+1}`;
+					`Channel-${i+1}`;
 				addClass("stack-tv-switch-item", div);
 				(gen_list[i].hidden != undefined && gen_list[i].hidden) ? addClass("hidden", div): addClass(
 					"shown", div);
