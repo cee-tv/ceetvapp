@@ -134,7 +134,7 @@
 						let a = document.createElement("a");
 						a.setAttribute("target", "_blank");
 						a.innerText = hitokoto.text;
-						a.setAttribute("href", `https://hitokoto.cn?uuid=${hitokoto.uuid}`);
+						a.setAttribute("href", ``);
 						p.appendChild(a);
 						p.setAttribute("class", "myuki-gcard_hitokoto");
 						p.style.color = _this._setting.hitokoto.color ? _this._setting.hitokoto.color :
