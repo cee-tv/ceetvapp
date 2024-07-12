@@ -222,7 +222,7 @@
 			switchHead.innerText = "Channel list";
 			let switchSearch = document.createElement("div");
 			let input = document.createElement("input");
-			input.placeholder = "搜索节目";
+			input.placeholder = "Search";
 			switchSearch.appendChild(input);
 			addClass("stack-tv-switch-foot", switchSearch);
 			addClass("stack-tv-switch-head", switchHead);
