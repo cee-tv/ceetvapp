@@ -162,7 +162,7 @@
 				this.log("视频链接有误!");
 				return;
 			}
-			this.log("准备播放视频:" + url);
+			this.log("Ready to play video...");
 			let canPlayM3u8 = this._stackvideo.canPlayType('application/vnd.apple.mpegurl');
 			if (!canPlayM3u8 && url.match(/.*\.(m3u8).*/gi)) {
 				this.log("当前浏览器不支持播放m3u8!");
