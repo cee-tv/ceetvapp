@@ -376,7 +376,7 @@
 				}
 			});
 
-			_this.log("~Stack TV加载完成~");
+			_this.log("~CEE TV~");
 
 			function lazyLoad() {
 				let lazyImgs = _this._stackswitchlist.querySelectorAll(".lazyImg");
