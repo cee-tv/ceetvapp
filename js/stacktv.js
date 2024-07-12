@@ -19,9 +19,9 @@
 		lazyLoadSize: 100,
 		autoTheaterMode: true,
 		tv_list: [{
-			'tv_name': 'Stack TV',
-			'tv_logo': 'https://tv.stackblog.cf/img/logo.png',
-			'tv_url': 'https://vmcdn.stackblog.ml/video/simplestacktv_1.m3u8'
+			'tv_name': 'CEE TV',
+			'tv_logo': 'https://raw.githubusercontent.com/cee-tv/Chinatv/main/Picsart_24-05-28_09-46-50-715.png',
+			'tv_url': ''
 		}],
 		controls: {
 			playToggle: true,
