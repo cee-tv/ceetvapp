@@ -219,7 +219,7 @@
 			let switchs = document.createElement("div");
 			let switchlist = document.createElement("div");
 			let switchHead = document.createElement("div");
-			switchHead.innerText = "Channel";
+			switchHead.innerText = "节目单";
 			let switchSearch = document.createElement("div");
 			let input = document.createElement("input");
 			input.placeholder = "搜索节目";
