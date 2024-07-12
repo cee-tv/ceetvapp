@@ -200,14 +200,14 @@
 
 		},
 		loadTVList: function(list) {
-			this.log("Prepare to load channel list......");
+			this.log("Prepare to load program list......");
 			if (!list || typeof list == 'string' || !list.length) {
 				this.log("节目列表数据格式不对!");
 				return false;
 			}
 			this._setting.tv_list = list;
 			if (!this._setting.showAbout && this._setting.autoPlayFirst && this._setting.tv_list[0]) {
-				this.log("Automatically load the first channel);
+				this.log("Automatically load the first program);
 				this.loadUrl(this._setting.tv_list[0].tv_url);
 			}
 		},
