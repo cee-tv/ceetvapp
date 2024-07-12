@@ -724,7 +724,7 @@
 				let tv_id = tv_items[i].match(/tvg-id=\"(.*?)\"/);
 				tv_id = tv_id ? tv_id.pop() : "";
 				item.tv_name = item.tv_name.length > 0 ? item.tv_name : tv_id;
-				item.tv_name = item.tv_name.length > 0 ? item.tv_name : `节目-${i}`;
+				item.tv_name = item.tv_name.length > 0 ? item.tv_name : `Channel-${i}`;
 				item.tv_url = ('http' + tv_items[i].split('http').pop()).trim();
 				item.tv_url == 'http' ? item.tv_url = this._setting.default_url : "";
 				item.tv_logo = tv_items[i].match(/tvg-logo=\"(.*?)\"/);
