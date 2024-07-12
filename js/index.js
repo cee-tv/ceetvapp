@@ -3,10 +3,10 @@
 		const MGC = $MGC({
 			icon: "./img/logo.png",
 			name: "Stack TV",
-			info: "A simple television.\n如果你有好的直播源推荐，请向我提交。",
+			info: "A simple television.\nIf you have any good live broadcast source recommendations, please submit them to me.。",
 			z_index: 9999,
 			blur: ".container",
-			lang: "zh-CN",
+			lang: "en",
 			mini: true,
 			darkmode: 2,
 			maxWidth: "30rem",
@@ -15,12 +15,12 @@
 				enable: true
 			},
 			links: [{
-				"title": "我的博客",
+				"title": "My Blog",
 				"url": "https://stackblog.cf/",
 				"type": "primary",
 				"target": "_blank"
 			}, {
-				"title": "使用教程",
+				"title": "Tutorial",
 				"url": "https://stackblog.cf/tv/",
 				"type": "dark",
 				"target": "_blank"
