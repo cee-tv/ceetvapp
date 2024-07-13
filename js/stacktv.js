@@ -354,7 +354,7 @@
 				}, 3000);
 			});
 			video.addEventListener("error", function() {
-				_this.log("");
+				_this.log("There is a problem with playback");
 			});
 			video.addEventListener("progress", function() {
 				// let start = this.buffered.start(0);
