@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/cee-tv/Chinatv/main/cee-phc.m3u";
+	let url = new URL(location.href).searchParams.get("url") || "https://m3u.ch/pl/54b2bc559d0064aa7f76f3cc7daa7370_04ee27a40d1ae97cc650506edb5e93d0.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
