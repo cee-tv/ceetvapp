@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "http://103.160.205.142:9999/playlist";
+	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/cee-tv/Chinatv/main/cee-phc.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
