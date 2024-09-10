@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://bit.ly/PHFreeTV";
+	let url = new URL(location.href).searchParams.get("url") || "https://m3u.ch/pl/1fb86a55d9a95744eca651e7978b757b_df31591fcb29d2e1b3b08066e30d5608.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
